@@ -196,6 +196,48 @@ footer p{
     text-align: center;
     margin: 2.4rem 0 3.4rem 0;
 }
-@media only screen and (min-width: 1190px){
+@media only screen and (max-width: 1000px){
+    .shoppingCartInfo{
+        grid-template-columns: repeat(1,1fr);
 
+    }
+}
+@media only screen and (max-width: 868px){
+    .menu a{
+       display: block;
+
+    }
+}
+@media only screen and (max-width: 612px){
+    .shoppingCartInfo{
+        margin-left: 24rem;
+        justify-content: center;
+    }
+    .shoppingCartTitle{
+        display: flex;
+        justify-content: center;
+        margin-left: 3rem;
+    }
+}
+@media only screen and (max-width: 512px){
+    .shoppingCartTitle{
+        font-size:3.7rem ;
+    }
+    .cart{
+        background-size: 90%;
+        background-repeat: no-repeat;
+
+    }
+}
+@media only screen and (max-width: 476px){
+    .shoppingCartTitle{
+        margin-left: 5rem;
+
+    }
+}
+@media only screen and (max-width: 354px){
+    .shoppingCartTitle{
+        margin-left: 4rem;
+        font-size: 3rem;
+    }
 }

@@ -29,51 +29,51 @@ const Products = ()=>{
                   </div>
               </div>
           </nav>
-          <section>
-              <div className="bannerBackground">
-                  <div className="banner">
-                      <div className="goBack"/>
-                      <div className="iphone"/>
-                      <div className="bannerText">
-                          <p>Lorem Ipsum is simply </p>
-                          <span>dummy text of the <br/> printing & typesettin</span>
-                          <button className="bannerButton">
-                              <div className="bannerButtonImg"/>
-                              <span>Sign up now</span>
-                          </button>
-                      </div>
-                      <div className="goNext"/>
-                  </div>
-              </div>
-          </section>
-          <section>
-              <div className="productsBackground">
-                  <div className="products">
-                      <div>
-                          <div className="penBackground">
-                              <div className="pen"/>
-                          </div>
-                          <p>Contrary to popular</p>
-                          <span>Lorem Ipsum is not simply random text. <br/> It has roots in a piece </span>
-                      </div>
-                      <div>
-                          <div className="TVBackground">
-                              <div className="TV"/>
-                          </div>
-                          <p>Contrary to popular</p>
-                          <span>Lorem Ipsum is not simply random text. <br/> It has roots in a piece </span>
-                      </div>
-                      <div>
-                          <div className="basketBackground">
-                              <div className="basket"/>
-                          </div>
-                          <p>Contrary to popular</p>
-                          <span>Lorem Ipsum is not simply random text. <br/> It has roots in a piece </span>
-                      </div>
-                  </div>
+          {/*<section>*/}
+          {/*    <div className="bannerBackground">*/}
+          {/*        <div className="banner">*/}
+          {/*            <div className="goBack"/>*/}
+          {/*            <div className="iphone"/>*/}
+          {/*            <div className="bannerText">*/}
+          {/*                <p>Lorem Ipsum is simply </p>*/}
+          {/*                <span>dummy text of the <br/> printing & typesettin</span>*/}
+          {/*                <button className="bannerButton">*/}
+          {/*                    <div className="bannerButtonImg"/>*/}
+          {/*                    <span>Sign up now</span>*/}
+          {/*                </button>*/}
+          {/*            </div>*/}
+          {/*            <div className="goNext"/>*/}
+          {/*        </div>*/}
+          {/*    </div>*/}
+          {/*</section>*/}
+          {/*<section>*/}
+          {/*    <div className="productsBackground">*/}
+          {/*        <div className="products">*/}
+          {/*            <div>*/}
+          {/*                <div className="penBackground">*/}
+          {/*                    <div className="pen"/>*/}
+          {/*                </div>*/}
+          {/*                <p>Contrary to popular</p>*/}
+          {/*                <span>Lorem Ipsum is not simply random text. <br/> It has roots in a piece </span>*/}
+          {/*            </div>*/}
+          {/*            <div>*/}
+          {/*                <div className="TVBackground">*/}
+          {/*                    <div className="TV"/>*/}
+          {/*                </div>*/}
+          {/*                <p>Contrary to popular</p>*/}
+          {/*                <span>Lorem Ipsum is not simply random text. <br/> It has roots in a piece </span>*/}
+          {/*            </div>*/}
+          {/*            <div>*/}
+          {/*                <div className="basketBackground">*/}
+          {/*                    <div className="basket"/>*/}
+          {/*                </div>*/}
+          {/*                <p>Contrary to popular</p>*/}
+          {/*                <span>Lorem Ipsum is not simply random text. <br/> It has roots in a piece </span>*/}
+          {/*            </div>*/}
+          {/*        </div>*/}
 
-                  </div>
-          </section>
+          {/*        </div>*/}
+          {/*</section>*/}
           <section>
               <div className="shopping">
                   <p className="shoppingCartTitle">The Shopping cart</p>
