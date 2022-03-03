@@ -1,15 +1,20 @@
 import React from "react";
 import './products.css';
+import './products_media.css';
 
+const style = {
+    "display":"flex",
+    "justifyContent":"center"
+}
 
 const Products = ()=>{
     return(
       <>
           <nav>
-              <div className='header'>
+              <div className="header">
                   <div>
-                      <div className='prechu'>
-                          <div></div>
+                      <div className="prechu">
+                          <div/>
                       </div>
                       <span>Prechu</span>
                   </div>
@@ -36,7 +41,8 @@ const Products = ()=>{
                       <div className="iphone"/>
                       <div className="bannerText">
                           <p>Lorem Ipsum is simply </p>
-                          <span>dummy text of the <br/> printing & typesettin</span>
+                          <span style={{"marginTop":"-1rem"}}>dummy text of the </span>
+                          <span style={{"marginTop":"1rem"}}>printing & typesettin</span>
                           <button className="bannerButton">
                               <div className="bannerButtonImg"/>
                               <span>Sign up now</span>
@@ -50,28 +56,36 @@ const Products = ()=>{
               <div className="productsBackground">
                   <div className="products">
                       <div>
-                          <div className="penBackground">
-                              <div className="pen"/>
+                          <div style={style}>
+                              <div className="penBackground">
+                                  <div className="pen"/>
+                              </div>
                           </div>
+
                           <p>Contrary to popular</p>
                           <span>Lorem Ipsum is not simply random text. <br/> It has roots in a piece </span>
                       </div>
                       <div>
-                          <div className="TVBackground">
-                              <div className="TV"/>
+                          <div style={style}>
+                              <div className="TVBackground">
+                                  <div className="TV"/>
+                              </div>
                           </div>
+
                           <p>Contrary to popular</p>
                           <span>Lorem Ipsum is not simply random text. <br/> It has roots in a piece </span>
                       </div>
                       <div>
-                          <div className="basketBackground">
-                              <div className="basket"/>
+                          <div style={style}>
+                              <div className="basketBackground">
+                                  <div className="basket"/>
+                              </div>
                           </div>
+
                           <p>Contrary to popular</p>
                           <span>Lorem Ipsum is not simply random text. <br/> It has roots in a piece </span>
                       </div>
                   </div>
-
                   </div>
           </section>
           <section>
@@ -87,7 +101,7 @@ const Products = ()=>{
                           <span>It to make a type specimen book. It has survived not only five centuries </span>
                           <span>But also the leap into electronic typesetting, </span>
                           <span>Remaining essentially unchanged. It was popularised </span>
-                          <span>The release of Letraset shee    ts containing Lorem Ipsum passages </span>
+                          <span>The release of Letraset shee  ts containing Lorem Ipsum passages </span>
                       </div>
                   </div>
               </div>

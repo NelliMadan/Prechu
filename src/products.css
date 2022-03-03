@@ -1,3 +1,15 @@
+@font-face {
+    font-family: "AssistantRegular";
+    src: local("AssistantRegular"),
+    url("../segoeuilight/segoeuil.ttf") format("truetype");
+    font-weight: normal;
+}
+body{
+    font-family: "AssistantRegular", serif;
+}
+html{
+    font-size: 10px;
+}
 .header{
     display: flex;
     justify-content: space-between;
@@ -25,21 +37,22 @@
     font-size: 4rem;
     position: absolute;
     top: 2.2rem;
-
 }
 .menu{
     margin-top: 4rem;
 }
-a{
+.menu a{
     margin-left: 3.2rem;
     text-decoration: none;
     color:#6C6C6C;
     font-size:2rem;
+    font-weight: 600;
 }
 .bannerBackground{
     margin-top: 2.4rem;
     background-image: url("../img/dsfsdfsdfds.png");
-    background-size: cover;
+    background-size:  cover;
+    background-repeat: no-repeat;
 }
 .banner{
     display: flex;
@@ -83,18 +96,20 @@ a{
     background:#5094F2;
     border:none;
     display: flex;
-    padding:0.9rem;
+    width: 17.2rem;
+    height: 4.1rem;
     margin-top:3.2rem;
     border-radius: 0.1rem;
 }
 .bannerButton span{
+    margin-top: 0.8rem;
     font-size: 2rem;
 }
 .bannerButtonImg{
+    margin:0.9rem 0.8rem 0 0.9rem;
     background-image: url("../img/img.png");
     width: 2.3rem;
     height: 2.3rem;
-    margin-right:0.8em
 }
 .productsBackground{
     background-image: url("../img/Layer 6.png");
@@ -103,12 +118,13 @@ a{
 .products{
     display: grid;
     grid-template:1fr/auto auto auto;
-
 }
 .products p{
     color: #5094F2;
     font-size: 2rem;
     text-align: center;
+    margin-bottom: 0.8rem;
+    font-weight: 600;
 }
 .products span{
     color: #909090;
@@ -167,6 +183,7 @@ a{
 .shoppingCartTitle{
     color: #6F7173;
     font-size: 4.2rem;
+    font-weight: 600;
     margin-left: 16.8rem;
 }
 .shoppingCartInfo{
@@ -182,134 +199,17 @@ a{
 .shoppingBasketInfo p{
     color: #6F7173;
     font-size: 2.6rem;
+    font-weight: 600;
 }
 .shoppingBasketInfo span{
     display: block;
     color: #909090;
     font-size: 1.5rem;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
 }
 footer p{
     font-size: 1.5rem;
     color: #909090;
     text-align: center;
-    margin: 2.4rem 0 3.4rem 0;
-}
-@media only screen and (max-width: 1000px){
-    .iphone{
-        background-size: 90%;
-        background-repeat: no-repeat;
-    }
-    .shoppingCartInfo{
-        grid-template-columns: repeat(1,1fr);
-
-    }
-}
-@media only screen and (max-width: 868px){
-    .menu a{
-       display: block;
-    }
-    .bannerText p{
-        font-size: 3rem;
-    }
-    .bannerText span{
-        font-size:1.5rem;
-    }
-    .goBack{
-        background-size: 90%;
-        background-repeat: no-repeat;
-    }
-    .goNext{
-        background-size: 90%;
-        background-repeat: no-repeat;
-    }
-}
-@media only screen and (max-width: 732px){
-    .bannerText p{
-        font-size: 2.8rem;
-    }
-
-    .iphone{
-        background-size: 80%;
-    }
-    .goBack{
-        margin-left: 1rem;
-        background-size: 80%;
-    }
-    .goNext{
-        margin-right: 1rem;
-        background-size: 80%;
-    }
-}
-@media only screen and (max-width: 700px){
-    .bannerText {
-        margin-top: 10rem;
-    }
-    .goBack{
-        margin-top: 21rem;
-    }
-    .goNext{
-        margin-top: 20rem;
-    }
-}
-@media only screen and (max-width: 612px){
-    .iphone{
-        margin-top: 8.4rem;
-        margin-bottom: -8rem;
-    }
-    .bannerText{
-        margin-top: 7rem;
-    }
-    .goNext{
-        margin-top: 18rem;
-        margin-right: 1.5rem;
-    }
-    .goBack{
-        margin-top: 19.5rem;
-        margin-left: 1.5rem;
-    }
-    .header{
-        flex-direction: column;
-    }
-    .menu a{
-        display: inline-block;
-    }
-    .shoppingCartInfo{
-        margin-left: 24rem;
-        justify-content: center;
-    }
-    .shoppingCartTitle{
-        display: flex;
-        justify-content: center;
-        margin-left: 3rem;
-    }
-}
-@media only screen and (max-width: 512px){
-    .shoppingCartTitle{
-        font-size:3.7rem ;
-    }
-    .cart{
-        background-size: 90%;
-        background-repeat: no-repeat;
-    }
-    .goNext{
-        margin-top:17rem;
-    }
-}
-@media only screen and (max-width: 476px){
-    .shoppingCartTitle{
-        margin-left: 5rem;
-
-    }
-}
-@media only screen and (max-width: 354px){
-    .shoppingCartTitle{
-        margin-left: 4rem;
-        font-size: 3rem;
-    }
-}
-@media only screen and (max-width: 322px){
-    .header span{
-        left:19rem;
-    }
+    margin: 2.4rem 0 2.6rem 0;
 }

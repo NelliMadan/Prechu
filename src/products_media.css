@@ -1,0 +1,419 @@
+
+@media only screen and (max-width: 1000px){
+    .iphone{
+        background-size: 90%;
+        background-repeat: no-repeat;
+    }
+    .bannerText{
+        margin-top: 14.5rem;
+    }
+    .shoppingCartInfo{
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+@media only screen and (max-width: 868px){
+    .iphone{
+        background-size: 85%;
+        margin-bottom: -5rem;
+    }
+    .bannerText{
+        margin-top: 14rem;
+    }
+    .bannerButton{
+        width:15.2rem;
+        height: 3.8rem;
+    }
+    .bannerButtonImg{
+        background-size: 90%;
+        background-repeat: no-repeat;
+        margin-top: 0.6rem;
+    }
+    .menu a{
+        font-size: 1.5rem;
+    }
+    .header span{
+        font-size: 3.5rem;
+    }
+    .header{
+        margin:0 10rem 0 11rem;
+    }
+    .prechu{
+        background-size: 90%;
+        background-repeat: no-repeat;
+        top:2.9rem;
+    }
+    .prechu div{
+        background-repeat: no-repeat;
+        background-size: 90%;
+    }
+    .bannerText p{
+        font-size: 3rem;
+    }
+    .bannerText span{
+        font-size:1.5rem;
+    }
+    .goBack{
+        background-size: 90%;
+        background-repeat: no-repeat;
+        margin-top: 22rem;
+    }
+    .goNext{
+        background-size: 90%;
+        background-repeat: no-repeat;
+        margin-top: 20.5rem;
+    }
+    .penBackground{
+        background-repeat: no-repeat;
+        background-size: 90%;
+        width: 17.6rem;
+        height: 17rem;
+    }
+    .pen{
+        background-repeat: no-repeat;
+        background-size: 90%;
+        left:4.8rem;
+        top:2.9rem;
+    }
+    .TVBackground{
+        background-repeat: no-repeat;
+        background-size: 90%;
+        width: 17.6rem;
+        height: 17rem;
+    }
+    .TV{
+        background-repeat: no-repeat;
+        background-size: 90%;
+        left:3.8rem;
+        top:4.3rem;
+    }
+    .basketBackground{
+        background-repeat: no-repeat;
+        background-size: 90%;
+        width: 17.6rem;
+        height: 17rem;
+    }
+    .basket{
+        background-repeat: no-repeat;
+        background-size: 90%;
+        left:3.8rem;
+        top:3.9rem;
+    }
+}
+@media only screen and (max-width: 732px){
+    .iphone{
+        background-size: 80%;
+        margin-bottom: -7rem;
+    }
+    .bannerText{
+        margin-top: 13rem;
+    }
+    .header span{
+        font-size: 3rem;
+    }
+    .header{
+        margin:0 8rem 0 9rem;
+    }
+    .prechu{
+        background-size: 85%;
+        top: 2.8rem;
+    }
+    .prechu div{
+        background-size: 85%;
+    }
+    .bannerText p{
+        font-size: 2.8rem;
+    }
+
+    .iphone{
+        background-size: 80%;
+    }
+    .goBack{
+        margin:21rem 0 0 1rem;
+        background-size: 80%;
+    }
+    .goNext{
+        margin: 19.5rem 1rem 0 0;
+        background-size: 80%;
+    }
+}
+@media only screen and (max-width: 700px){
+    .iphone{
+        background-size: 70%;
+        background-repeat: no-repeat;
+        margin-bottom: -10rem;
+    }
+    .bannerText {
+        margin-top: 8rem;
+    }
+    .bannerButton{
+        width:14.2rem;
+        height: 3.4rem;
+    }
+    .bannerButtonImg{
+        background-size: 80%;
+        margin:0.65rem 0.5rem 0 0;
+    }
+    .goBack{
+        margin-top: 19rem;
+    }
+    .goNext{
+        margin-top: 17.5rem;
+    }
+    .products{
+        grid-template: 1fr/auto;
+    }
+}
+@media only screen and (max-width: 668px){
+    .prechu{
+        margin-right: -1rem;
+    }
+    .iphone{
+        background-size: 65%;
+        margin-bottom: -14rem;
+    }
+    .bannerText{
+        margin-left: -7rem;
+    }
+    .bannerText p{
+        font-size: 2rem;
+    }
+    .goBack{
+        background-size: 75%;
+        margin-top: 18rem;
+    }
+    .goNext{
+        background-size: 75%;
+        margin-top: 16.5rem;
+    }
+}
+@media only screen and (max-width: 612px){
+    .prechu {
+        margin-bottom: -2rem;
+    }
+    .iphone{
+        background-size: 60%;
+        margin-bottom: -16rem;
+    }
+    .bannerText{
+        margin:7rem 0 0 -8rem;
+    }
+    .goNext{
+        margin:16rem 1.5rem 0 0;
+    }
+    .goBack{
+        background-size: 70%;
+        margin:15.5rem 0 0 1.5rem;
+    }
+    .goNext{
+        background-size: 70%;
+        margin-top: 13.2rem;
+    }
+    .header{
+        flex-direction: column;
+    }
+    .menu a{
+        display: inline-block;
+    }
+    .shoppingCartInfo{
+        margin-left: 24rem;
+        justify-content: center;
+    }
+    .shoppingCartTitle{
+        display: flex;
+        justify-content: center;
+        margin-left: 3rem;
+    }
+}
+@media only screen and (max-width: 562px){
+    .iphone{
+        background-size: 55%;
+        margin-bottom: -18rem;
+    }
+    .bannerText{
+        margin:5rem 0 0 -11rem;
+    }
+    .goNext{
+        margin:12.5rem 1.5rem 0 0;
+    }
+    .goBack{
+        margin:14rem 0 0 1.5rem;
+    }
+}
+@media only screen and (max-width: 512px){
+    .iphone{
+        background-size: 50%;
+        margin-bottom: -20rem;
+    }
+    .bannerText{
+        margin-left: -13rem;
+    }
+    .bannerText p{
+        font-size: 1.8rem;
+    }
+    .bannerText span{
+        font-size: 1.2rem;
+    }
+    .bannerButton{
+        width:11.5rem;
+        height: 3.2rem;
+    }
+    .bannerButtonImg{
+        background-size: 70%;
+        margin:0.65rem 0.2rem 0 0.5rem;
+    }
+    .shoppingCartTitle{
+        font-size:3.7rem ;
+    }
+    .cart{
+        background-size: 90%;
+        background-repeat: no-repeat;
+    }
+    .goNext{
+        margin-top:11.5rem;
+    }
+    .goBack{
+        margin-top: 13.2rem;
+    }
+}
+@media only screen and (max-width: 476px){
+    .iphone{
+        background-size: 45%;
+        margin-bottom: -22rem;
+    }
+    .bannerText{
+        margin-left: -15.5rem;
+    }
+    .bannerText p{
+        font-size: 1.5rem;
+    }
+    .bannerText span{
+        font-size: 1.1rem;
+    }
+    .bannerButton{
+        width:10.5rem;
+        height: 3rem;
+    }
+    .bannerButtonImg{
+        background-size: 60%;
+        margin-right:0;
+    }
+    .goNext{
+        background-size: 60%;
+        margin-top:10rem;
+    }
+    .goBack{
+        background-size: 60%;
+        margin-top: 13rem;
+    }
+    .cart{
+        background-size: 80%;
+    }
+    .shoppingCartTitle{
+        margin-left: 2rem;
+    }
+}
+@media only screen and (max-width: 420px){
+    .iphone{
+        background-size: 40%;
+        margin-bottom: -24rem;
+    }
+    .bannerText{
+        margin:3rem 0 0 -17rem;
+    }
+    .goNext{
+        margin-top:8.5rem;
+    }
+    .goBack{
+        margin-top: 11.5rem;
+    }
+    .cart{
+        background-size: 70%;
+        width: 30rem;
+        height: 17rem;
+    }
+    .shoppingCartTitle{
+        margin-left: 1rem;
+    }
+    .shoppingBasketInfo{
+        margin-left: -2rem;
+    }
+}
+
+@media only screen and (max-width: 390px){
+    .cart{
+        background-size: 90%;
+        width: 20rem;
+        height: 15rem;
+        margin-left: -7rem;
+    }
+    .shoppingCartTitle{
+        margin-left: 1rem;
+    }
+    .shoppingBasketInfo{
+        margin-left: -12rem;
+    }
+}
+@media only screen and (max-width: 354px){
+    .header span{
+        font-size: 2.8rem;
+    }
+    .prechu{
+        background-size: 80%;
+    }
+    .prechu div{
+        background-size: 75%;
+        top:1rem;
+    }
+    .iphone{
+        background-size: 35%;
+        margin-bottom: -26rem;
+    }
+    .bannerText{
+        margin:2rem 0 0 -15rem;
+    }
+    .bannerText p{
+        font-size: 1.5rem;
+    }
+    .bannerButton{
+        margin-top: 2rem;
+        width: 10rem;
+    }
+    .bannerButtonImg{
+        background-size: 50%;
+        margin-right: -0.5rem;
+    }
+    .goNext{
+        margin-top:7rem;
+    }
+    .goBack{
+        margin-top: 10.5rem;
+    }
+    .cart{
+        margin-left: -10rem;
+    }
+    .shoppingCartTitle{
+        font-size: 3.5rem;
+    }
+    .shoppingBasketInfo p{
+        font-size: 2.4rem;
+    }
+    .shoppingBasketInfo{
+        margin-left: -15rem;
+    }
+
+}
+@media only screen and (max-width: 326px){
+    .cart{
+        margin-left: -12rem;
+        height:14rem;
+    }
+    .shoppingCartTitle{
+        font-size: 3.2rem;
+    }
+    .shoppingBasketInfo{
+        margin-left: -17rem;
+    }
+    .shoppingBasketInfo p{
+        font-size: 2.2rem;
+    }
+}
